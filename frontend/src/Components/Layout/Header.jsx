@@ -87,7 +87,7 @@ const SignInUp =()=>{
 
 
   const getUserInfo = async ()=>{
-    const response = await fetch(`http://localhost:4000/api/users//getuser`,{
+    const response = await fetch(`https://nikky-ecommerce.onrender.com/api/users//getuser`,{
       method:"POST",
       headers:{
         "Content-Type":"application/json",

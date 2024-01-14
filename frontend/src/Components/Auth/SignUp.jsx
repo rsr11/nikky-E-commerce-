@@ -12,7 +12,7 @@ const SignUp = () => {
     const handleSubmit = async (e)=>{
             e.preventDefault();
             const {fname,lname, email, password,age,gender} = credentials;
-            const response = await fetch("http://localhost:4000/api/users/createuser",
+            const response = await fetch("https://nikky-ecommerce.onrender.com/api/users/createuser",
             {
                 method:"POST",
                 headers:{

@@ -27,7 +27,7 @@ const {ShowCartBox,showFavBox} = context;
 
      const fetchData = async ()=>{
        props.setProgress(0);
-       const res = await fetch(`http://localhost:4000/api/products?${ Category.length !==0 && "category="+Category[0]+"&category="+Category[1]+"&category="+Category[2]+"&sort="+sort}`);
+       const res = await fetch(`https://nikky-ecommerce.onrender.com/api/products?${ Category.length !==0 && "category="+Category[0]+"&category="+Category[1]+"&category="+Category[2]+"&sort="+sort}`);
        const jsonData = await res.json();
        setShowData(jsonData);
        props.setProgress(100);

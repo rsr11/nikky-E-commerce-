@@ -40,7 +40,7 @@ const ProductDetail = (props) => {
   useEffect(  () =>{
     props.setProgress(0);
     const getData = async ()=>{
-        const data = await fetch(`http://localhost:4000/api/products?AddressName=${searchPath}`);
+        const data = await fetch(`https://nikky-ecommerce.onrender.com/api/products?AddressName=${searchPath}`);
 
         // const currentProduct = await data.pathName;
         const objData = await data.json();

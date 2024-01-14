@@ -19,7 +19,7 @@ const SetProductState = (props) => {
        
         dispatch({type:"SET_LOADING"});
        
-       try{  const res = await axios.get("http://localhost:4000/api/products");
+       try{  const res = await axios.get("https://nikky-ecommerce.onrender.com/api/products");
          const products = await res.data;
          dispatch({type: "SET_FEATURE_DATA", payload:products})
 
