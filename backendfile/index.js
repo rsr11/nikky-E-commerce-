@@ -16,7 +16,7 @@ connectToMongo().then(()=>{
 }).catch(err => console.log(`error in connecting server and database : ${err}`)) 
 
 
-SendingProucts();
+// SendingProucts();
 
 const app = express();
 const port = process.env.PORT || 6000;
