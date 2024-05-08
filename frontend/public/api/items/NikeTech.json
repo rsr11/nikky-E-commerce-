@@ -1,0 +1,13 @@
+[{
+    "name":"Nike Sportswear Tech Fleece",
+    "category":"Men Hoodie",
+    "feature":false,
+    "AddressName":"NikeTech",
+    "images":["https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/439f46cd-da90-45b6-96e7-22d866b32a24/sportswear-tech-fleece-hoodie-bxk5v8.png",
+    "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/7671ee09-25c4-48cc-a3cc-0635cde36bd8/sportswear-tech-fleece-hoodie-bxk5v8.png",
+    "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/4f9cdd52-531e-468c-bb43-c9ee61338879/sportswear-tech-fleece-hoodie-bxk5v8.png",
+    "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/72ecee20-4491-4570-98bd-c77e24e38531/sportswear-tech-fleece-hoodie-bxk5v8.png"],
+    "price":6495,
+    "coverPage":"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/a81feba0-6db4-4929-8ff2-8e4e16b2ef3c/sportswear-tech-fleece-hoodie-bxk5v8.png",
+    "detail":"Get into it with this sleek, performance-ready hoodie. Soft fleece infused with sweat-wicking tech keeps you dry throughout your workout. When it comes to the jacket's design, everything is smooth. Taking nods from MJ's iconic trackssuit, concealed pockets blend into the Wings lines. Zip up, and you're ready to go." 
+}]

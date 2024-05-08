@@ -1,0 +1,14 @@
+[ {
+    "name":"Nike Dunk Retro Premium",
+    "category":"Men Shoes",
+    "AddressName":"NikeDunk",
+    "images":["https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/1853308a-2d38-43c2-b978-05a18e6ec40d/dunk-high-retro-shoes-c4lpG4.png",
+    "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/f1ab9ee4-b076-453d-a0ce-1d1482570bea/dunk-high-retro-shoes-c4lpG4.png",
+    "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/7014db7b-de55-49e2-aac2-9f49b247bfae/dunk-high-retro-shoes-c4lpG4.png",
+    "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/6e54d430-30f2-465e-bcd8-c37dacd80d9d/dunk-high-retro-shoes-c4lpG4.png"],
+    "feature":true,
+    "coverPage":"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/f6eb0c8c-78a5-4467-928e-46457c70a4d3/dunk-high-retro-shoes-c4lpG4.png",
+    "price":11495,
+    "color":"grey",
+    "detail":"50 years after the birth of the genre, hip-hop is still influencing streetwear. Nike shoes have always been an integral part of this culture, both influencing and being influenced by iconic musicians, artists and fans. Celebrate half a century of art and culture with platinum details like a microphone charm. Lace up and get spinning"
+   }]

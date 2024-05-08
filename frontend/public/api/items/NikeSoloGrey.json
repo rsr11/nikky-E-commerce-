@@ -1,0 +1,13 @@
+[{
+    "name":"Nike Solo Grey",
+    "category":"Men Hoodie",
+    "feature":true,
+    "AddressName":"NikeSoloGrey",
+    "images":["https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/704848a5-86a4-455e-ac75-45c894ae7f94/solo-swoosh-french-terry-crew-TGH2t4.png",
+    "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/0a4b28ab-3156-4a48-8b83-e562472a71da/solo-swoosh-french-terry-crew-TGH2t4.png",
+    "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/472fe563-4dd1-473a-ac4d-1b8244ba13af/solo-swoosh-french-terry-crew-TGH2t4.png",
+    "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/cdb34558-dad3-4362-a187-992487fafead/solo-swoosh-french-terry-crew-TGH2t4.png"],
+    "price":4395,
+    "coverPage":"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/fdf60edb-4674-43eb-a37a-cd4ac5eac0bb/solo-swoosh-french-terry-crew-TGH2t4.png",
+    "detail":"This warm fleece hoodie is made with some extra room through the shoulders, chest and body for easy comfort and laid-back, nostalgic style. The thick, stretchy ribbing on the cuffs and hem help hold the hoodie in place and give a premium feel. Our solo Swoosh is embroidered on the left chest to keep your look clean and effortless." 
+}]

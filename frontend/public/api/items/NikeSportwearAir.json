@@ -1,0 +1,13 @@
+[{
+    "name":"Nike Sportswear Air",
+    "category":"Men Hoodie",
+    "feature":false,
+    "AddressName":"NikeSportwearAir",
+    "images":["https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/88bbf1b9-5458-475c-b131-ea080232c873/sportswear-air-french-terry-crew-QWbgkk.png",
+    "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/3c8d5516-988c-4a58-90cb-c07806b0b847/sportswear-air-french-terry-crew-QWbgkk.png",
+    "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/09e54412-4739-43cc-94bd-dea91e3d4fc2/sportswear-air-french-terry-crew-QWbgkk.png",
+    "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/cd8a4e26-1419-40d3-97b3-b2ad85ed2351/sportswear-air-french-terry-crew-QWbgkk.png"],
+    "price":4495,
+    "coverPage":"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/9512f34d-4d59-4bbb-a05b-5672ba82b1b5/sportswear-air-french-terry-crew-QWbgkk.png",
+    "detail":"Get into it with this sleek, performance-ready hoodie. Soft fleece infused with sweat-wicking tech keeps you dry throughout your workout. When it comes to the jacket's design, everything is smooth. Taking nods from MJ's iconic trackssuit, concealed pockets blend into the Wings lines. Zip up, and you're ready to go." 
+}]

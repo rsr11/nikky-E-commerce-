@@ -1,0 +1,13 @@
+[{
+    "name":"Nike E-Series 1.0",
+    "category":"Men Shoes",
+    "AddressName":"NikeESeries",
+    "images":["https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/a03b8759-f7fb-4066-b1b7-dbbd17c8ae66/e-series-1-shoes-j57hxR.png",
+    "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/ac2a6d5e-4553-4732-a4e2-849c04a34c3a/e-series-1-shoes-j57hxR.png",
+    "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/7de68c84-21f6-440d-97e0-569b84bdaf8c/e-series-1-shoes-j57hxR.png",
+    "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/58c5a785-ef46-4c8a-bf4f-92390043118f/e-series-1-shoes-j57hxR.png"],
+    "price":8695,
+    "feature":false,
+    "coverPage":"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/b01b3e05-057f-4656-8566-540d291cd955/e-series-1-shoes-j57hxR.png",
+    "detail":"Supercharge simplicity with the Nike E-Series 1.0. From the easy-to-style colours to the plush materials, including a padded collar and foam midsole, it's your invitation to get going. And for the finishing touch, the outsole pattern is inspired by zen sand gardens. Go ahead—find your calm place."
+}]

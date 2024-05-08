@@ -1,0 +1,13 @@
+[{
+    "name":"Nike Solo Purple",
+    "category":"Men Hoodie",
+    "feature":true,
+    "AddressName":"NikeSoloPurple",
+    "images":["https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/af2bb1a7-483e-49ae-b199-a6e188932ca5/solo-swoosh-french-terry-pullover-hoodie-k5q1Qr.png",
+    "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/0ccdd62c-3f65-448a-8fdd-ba6966a5d44d/solo-swoosh-french-terry-pullover-hoodie-k5q1Qr.png",
+    "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/fc4ddb8f-0040-4a18-b8b5-21a1973bcba8/solo-swoosh-french-terry-pullover-hoodie-k5q1Qr.png",
+    "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/4c5a4cb4-e193-4c7b-b603-4f85d9e470ad/solo-swoosh-french-terry-pullover-hoodie-k5q1Qr.png"],
+    "price":5495,
+    "coverPage":"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/d4313c07-6d08-49b4-ab6f-72215428df97/solo-swoosh-french-terry-pullover-hoodie-k5q1Qr.png",
+    "detail":"This warm fleece hoodie is made with some extra room through the shoulders, chest and body for easy comfort and laid-back, nostalgic style. The thick, stretchy ribbing on the cuffs and hem help hold the hoodie in place and give a premium feel. Our solo Swoosh is embroidered on the left chest to keep your look clean and effortless."
+   }]

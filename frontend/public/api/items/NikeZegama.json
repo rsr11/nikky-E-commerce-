@@ -1,0 +1,13 @@
+[{
+    "name":"Nike Zegama",
+    "category":"Men Shoes",
+    "AddressName":"NikeZegama",
+    "images":["https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/29a69268-55ec-4414-9dc9-061e17027a6b/zegama-trail-running-shoes-LhRsM7.png",
+    "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/4e35edf0-47ad-40f7-ba57-f5a3252799b1/zegama-trail-running-shoes-LhRsM7.png",
+    "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/c0093571-1211-4651-9efc-10deabb92051/zegama-trail-running-shoes-LhRsM7.png",
+    "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/7471152c-5ce7-4e1a-9a6e-b67768508550/zegama-trail-running-shoes-LhRsM7.png"],
+    "price":13995,
+    "feature":false,
+    "coverPage":"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/98b7a866-011e-45a1-88be-c90888f27c16/zegama-trail-running-shoes-LhRsM7.png",
+    "detail":"Navigate the up and downs of uncompromising terrain with the Nike Zegama. Developed with great grip and stability, it has you covered, so you can keep climbing and reach greater personal heights when the going gets grimy and gritty. Whether it's a challenging, rocky landscape going uphill or a steep, slick decline down a treacherous trail, feel confident when you decide to off-road it."
+            }]

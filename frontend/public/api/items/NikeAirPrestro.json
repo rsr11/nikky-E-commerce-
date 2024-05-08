@@ -1,0 +1,13 @@
+[{
+    "name":"Nike Air Presto",
+    "category":"Men Shoes",
+    "AddressName":"NikeAirPrestro",
+    "images":["https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/7cd6bbb4-f273-4a59-96d7-8a118a76db2a/air-presto-shoes-zcCqXJ.png",
+    "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/c2cf98db-0617-4abc-8015-44727f2db604/air-presto-shoes-zcCqXJ.png",
+    "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/146c3458-2857-4b6b-b5cd-e05c4e428f82/air-presto-shoes-zcCqXJ.png",
+    "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/5cf92219-5664-4b61-92dc-2482e3974976/air-presto-shoes-zcCqXJ.png"],
+    "price":12795,
+    "feature":false,
+    "coverPage":"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/a42b56c3-9732-4835-a3cb-97c61ec0a78c/air-presto-shoes-zcCqXJ.png",
+    "detail":"With a sleek design that's more comfortable than your favourite tee, the Air Presto is made to feel good and look fast. Its stretchy sleeve creates a cosy, sock-like fit, while the soft foam adds spring to your step. Put them on and you'll never want to take them off."
+    }]

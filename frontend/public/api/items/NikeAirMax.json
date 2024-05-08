@@ -1,0 +1,13 @@
+[{
+    "name":"Nike Air Max 90",
+    "category":"Men Shoes",
+    "AddressName":"NikeAirMax",
+    "images":["https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/f9e940d3-2192-434e-a017-072303ce2f14/air-max-90-shoes-N7Tbw0.png",
+    "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/f9e940d3-2192-434e-a017-072303ce2f14/air-max-90-shoes-N7Tbw0.png",
+    "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/5aca2cfc-cc0b-4cee-94c9-6689f4d349c5/air-max-90-shoes-N7Tbw0.png",
+    "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/2addfa0b-61c7-43c1-b4e9-f4c9fbc9ffae/air-max-90-shoes-N7Tbw0.png"],
+    "price":11895,
+    "feature":false,
+    "coverPage":"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/b81cf68f-0c5a-4d57-a21c-f63a2d1cba42/air-max-90-shoes-N7Tbw0.png",
+    "detail":"Lace up and feel the legacy. Produced at the intersection of art, music and culture, this champion running shoe helped define the '90s. Worn by presidents, revolutionised through collabs and celebrated through rare colourways, its striking visuals, Waffle outsole and exposed Nike Air cushioning keep it alive and well."
+         }]
