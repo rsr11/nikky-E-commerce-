@@ -19,7 +19,7 @@ const SetProductState = (props) => {
        
         dispatch({type:"SET_LOADING"});
        
-       try{  const res = await axios.get("https://nikky-ecommerce.onrender.com/api/products");
+       try{  const res = await axios.get("api/product.json");
          const products = await res.data;
          dispatch({type: "SET_FEATURE_DATA", payload:products})
 
@@ -29,9 +29,14 @@ const SetProductState = (props) => {
         //  console.log(products);
   }
 
+
+
   useEffect(()=>{
      getItems();
   },[])
+
+
+
 
   return (
     <SetProduct.Provider value={{...state}}>
