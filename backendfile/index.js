@@ -25,7 +25,7 @@ app.use(cors());
 
 
 
-app.use(express.json({ limit:"18kb"}));
+app.use(express.json());
 
 
 // routes available

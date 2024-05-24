@@ -1,15 +1,46 @@
 const express = require("express");
 const Products = require("../models/Products");
 const router = express.Router();
+const nikeProducts = require("../products");
 
-router.get("/", async(req,res)=>{
-     const{name, category, AddressName, feature, sort, select} = req.query;
+
+router.post("/", async(req,res)=>{
+     const{category, AddressName, feature, sort, select} = req.query;
+
+     const {categories, sorting} = await req.body;
+
+     console.log(categories);
+     // console.log(nikeProducts?.length);
       
      let dataObj = {};
+
+     let isShoes = categories?.filter((e)=>{ return e === "Men Shoes"});
+     isShoes = isShoes?.length === 0 ? "" : isShoes?.[0] ;
+     console.log(isShoes);
+
+     let isFootallShoes = categories?.filter((e)=>{ return e === "Football Shoes"});
+     isFootallShoes = isFootallShoes?.length === 0 ? "" : isFootallShoes?.[0] ;
+     console.log(isFootallShoes);
+
+     let isHoodie = categories?.filter((e)=>{ return e === "Men Hoodie"});
+     isHoodie = isHoodie?.length === 0 ? "" : isHoodie?.[0] ;
+     console.log(isHoodie);
+
+     let filteredData = nikeProducts?.filter((product)=> { return product.category === isFootallShoes || product.category === isShoes || product.category === isHoodie } );
+
+     console.log(filteredData?.length);
+     // let finalData = [];
+
+    
+       let finalData = sorting === "-price" ? filteredData.sort((a,b)=>{ return b.price - a.price}) : filteredData?.sort((a,b)=>{ return a.price - b.price});
+     // }else{
+     //    let finalData = filteredData?.sort((a,b)=>{ b.price - a.price});
+     // }
+
      
-     if(name){
-          dataObj.name = {$regex:name , $options:"i"};
-     }
+     // if(name){
+     //      dataObj.name = {$regex:name , $options:"i"};
+     // }
      
      if(category){
           dataObj.category = category;
@@ -22,7 +53,9 @@ router.get("/", async(req,res)=>{
      if(feature){
           dataObj.feature = feature;
      }
-     
+      
+     // console.log(dataObj);
+
      let apiResult = Products.find(dataObj);
      
      if(sort){
@@ -46,7 +79,10 @@ router.get("/", async(req,res)=>{
      
      
      const data = await apiResult;
-     res.json(data); 
+     if(filteredData?.length === 0){
+          return res.json(["item one"]);
+     }
+     res.json(finalData); 
      
 })
 

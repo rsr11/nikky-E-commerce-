@@ -27,7 +27,13 @@ const {ShowCartBox,showFavBox} = context;
 
      const fetchData = async ()=>{
        props.setProgress(0);
-       const res = await fetch(`https://nikky-ecommerce.onrender.com/api/products?${ Category.length !==0 && "category="+Category[0]+"&category="+Category[1]+"&category="+Category[2]+"&sort="+sort}`);
+       const res = await fetch(`http://localhost:5000/api/products?${Category}"&sort="+sort}`,{
+        method:`POST`,
+        headers:{
+          'Content-Type': 'application/json'
+        },
+        body:JSON.stringify({categories:Category,sorting:sort}),
+       });
        const jsonData = await res.json();
        setShowData(jsonData);
        props.setProgress(100);
@@ -38,6 +44,10 @@ const {ShowCartBox,showFavBox} = context;
       useEffect(()=>{
         fetchData();
         console.log(sort);
+
+        // if(Category?.length === 0){
+        //   setCategory(["Football Shoes","Men Shoes","Men Hoodie"]);
+        // }
                   // eslint-diable-next-line
       },[sort,Category]);
 
@@ -48,7 +58,10 @@ const {ShowCartBox,showFavBox} = context;
 
 
     // progressing(100)
+    
+    // if(showData === "No Data"){
 
+    // }
 
     
   return (
@@ -59,7 +72,7 @@ const {ShowCartBox,showFavBox} = context;
 
 
       {showData.length === 0  ? <div className='h-[80vh] flex flex-col gap-10 justify-center items-center text-3xl  '><h1>Loading- Wait a min.  </h1><img src={loader} alt="" /></div> :
-       <div className={` ${ShowCartBox && "blur-sm"} flex ${showFavBox && "blur-sm"} flex-col sm:flex-row sm:gap-5 md:gap-10`}>
+       <div className={`  ${ShowCartBox && "blur-sm"} flex ${showFavBox && "blur-sm"} flex-col sm:flex-row sm:gap-5 md:gap-10`}>
 
               <div className={`sm:w-[20vw] mt-[5.5rem] flex flex-col items-start pl-10 sm:pl-2 lg:pl-10 py-2 sm:py-0 bg-zinc-100 ${closeEye ? "block" : "hidden"}`}>
 
@@ -98,7 +111,8 @@ const {ShowCartBox,showFavBox} = context;
           </div>
         </div>
             <div className={` ${ShowCartBox && "cursor-not-allowed"} grid sm:grid-cols-2 lg:grid-cols-3 lg:grid-rows-9  mx-auto gap-x-2 gap-y-10`}>
-                {showData.map((e)=>{
+                {showData.length === 1 ? <div className={`h-[70vh]`} > <h1>Select Category</h1> </div>  :
+                showData.map((e)=>{
                   return <div className='lg:w-400px ' key={e.name}>
                     <Link to={ ShowCartBox ? ""  : e.AddressName} className={`${ShowCartBox && "cursor-not-allowed"}`}>
                      <div className='border-b-2 border-black'>
@@ -107,7 +121,7 @@ const {ShowCartBox,showFavBox} = context;
                      </div>
                      <div className='flex justify-between bg-zinc-100 px-2 pb-2'>
                       <div>
-                 <div className='font-semibold ' >{e.name.slice(0,14)+".."}</div>
+                 <div className='font-semibold ' >{e.name?.slice(0,14)+".."}</div>
                       <div className='text-[#666161]'>{e.catagory}</div> 
                       </div>
                       <div>MRP: ₹ {e.price}</div>
