@@ -1,5 +1,5 @@
 const connectToMongo = require("./db");
-const NikeProducts = require("./products.json");
+const NikeProducts = require("./products");
 const product = require("./models/Products");
 
 const SendingProucts = async()=>{
